@@ -1,0 +1,8 @@
+# using the 'from' keyword to improt a method from a module
+
+from random import choices
+#creating a list of cars
+cars = ['toyota', 'hondo', 'buick', 'civic']
+#calling the method
+random_car = choices(cars, k=3)
+print(random_car)
